@@ -1,4 +1,6 @@
 {
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+
 	"Clog to console.log": {
         "prefix": ["clog","cl"],
         "body": [
@@ -46,6 +48,22 @@
 			"document.createElement('$1');"
 		],
 		"description":"open document.createElement('');"
-	}
+	},
 	
+	"Append Function": {
+		"prefix": "apnd",
+		"body": [
+		  "$1.append($2);"
+		],
+		"description": "Inserts the append() function"
+	},
+	
+	".innerText":{
+		"prefix": "innertext",
+		"body": [
+			"$1.innerText(\"$2\")"
+		],
+		"description": "Inserts the innerText() function"
+		
+	}
 }
