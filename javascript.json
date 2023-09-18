@@ -1,0 +1,51 @@
+{
+	"Clog to console.log": {
+        "prefix": ["clog","cl"],
+        "body": [
+            "console.log($1);"
+        ],
+        "description": "open 'console.log'"
+    },
+
+	"QuerySelect":{
+		"prefix": ["docquerysel", "getquery", "getq"],
+		"body": [
+			"document.querySelector('$1');"
+		],
+		"description": "open 'document.querySelector('');"
+	},
+
+	
+	"GetElementById":{
+		"prefix": ["docgetid", "getid"],
+		"body":[
+			"document.getElementById('$1');"
+		],
+		"description":"open document.getElementById('');" 
+	},
+
+	"GetElementByClass":{
+		"prefix": ["docgetclass", "getclass"],
+		"body":[
+			"document.getElementByClassName('$1');"
+		],
+		"description":"open document.getElementByClassName('');" 
+	},
+
+	"GetElementsByTagName":{
+		"prefix": ["docgettag", "gettag"],
+		"body":[
+			"document.getElementsByTagName('$1');"
+		],
+		"description":"open document.getElementsByTagName('');"
+	},
+	
+	"createElement":{
+		"prefix": ["doccreate", "createelement"],
+		"body":[
+			"document.createElement('$1');"
+		],
+		"description":"open document.createElement('');"
+	}
+	
+}
